@@ -114,7 +114,7 @@ export default function LandingPage() {
   const [isDarkMode, setIsDarkMode] = useState(false);
   const [lang, setLang] = useState<'si' | 'en'>('si');
   const currentT = t[lang];
-  const whatsappLink = "https://wa.me/94767196125"; // WhatsApp Link added here for easy changes
+  const whatsappLink = "https://wa.me/94707907099"; // WhatsApp Link added here for easy changes
 
   useEffect(() => {
     if (isDarkMode) {
@@ -149,7 +149,7 @@ export default function LandingPage() {
           {/* WhatsApp Number in Nav Bar */}
           <a href={whatsappLink} target="_blank" rel="noreferrer" className="hidden lg:flex items-center gap-2 text-teal-600 dark:text-teal-400 font-bold hover:scale-105 transition-transform bg-teal-50 dark:bg-teal-900/30 px-4 py-1.5 rounded-full">
             <Phone size={16} />
-            0767196125
+            0707907099
           </a>
 
           {/* Language Toggle Button */}
